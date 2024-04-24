@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-with open("openai.txt") as f:
+with open("openai.txt", encoding='utf-8') as f:
     docs = f.read()
 
 template = """Based on the following instrutions, help me write a good prompt TEMPLATE for the following task:
