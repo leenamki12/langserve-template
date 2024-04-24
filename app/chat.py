@@ -16,4 +16,4 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-chain = prompt | ChatOpenAI(model="gpt-4-turbo-preview")
+chat_openai_model = prompt | ChatOpenAI(model="gpt-4-turbo-preview")
